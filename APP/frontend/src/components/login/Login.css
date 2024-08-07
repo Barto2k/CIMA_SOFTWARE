@@ -1,0 +1,42 @@
+divbody {
+    display: flex;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #f5f5f5;
+    
+  }
+  
+  .container {
+    display: flex; /* Make the container a flex container */
+    justify-content:right ; /* Align content to the right end */
+    
+}
+  
+  .form-signin {
+    max-width: 2000px;
+    padding: 160px;
+  }
+  
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .form-signin input{
+    text-transform: none;
+  }
+
